@@ -7,7 +7,7 @@ public class Raton extends DispositivoEntrada{
     // Constructor
     public Raton(String tipoDeEntrada,String marca ) {
         super (tipoDeEntrada, marca);
-        idRaton = contadorRatones++;
+        idRaton = ++contadorRatones;
     }
 
     @Override

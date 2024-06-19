@@ -6,7 +6,7 @@ public class Teclado extends DispositivoEntrada{
 
     public Teclado(String tipoDeEntrada, String marca){
         super(tipoDeEntrada, marca);
-        this.idTeclado = contadorTeclado++;
+        this.idTeclado = ++contadorTeclado;
     }
 
     @Override
